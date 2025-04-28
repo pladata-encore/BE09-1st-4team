@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 독자적인 카페 키오스크 시스템 개발 프로젝트
 
 ## 1. 프로젝트 개요
@@ -240,6 +239,3 @@
 
 ### Admin section 
 ![image](https://github.com/user-attachments/assets/f4097e68-3a59-4941-acbd-8b696c544218)
-=======
-# BE09-1st-4team
->>>>>>> db97380e6a1bcf9f1ed8ebefd0949d512721d370
