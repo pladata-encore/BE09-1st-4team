@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <comment/>
+  <entry key="selectCategories">
+    SELECT * FROM tbl_category
+  </entry>
+  <entry key="selectMenuByCategoryName">
+    SELECT a.menuId, a.menuName, b.categoryName, b.categoryId, a.menuPrice
+    FROM tbl_menu a
+    INNER JOIN tbl_category b
+    ON a.categoryId = b.categoryId
+    WHERE b.categoryName = ?
+  </entry>
+  <entry key="selectMenuById">
+    SELECT a.menuId, a.menuName, b.categoryName, b.categoryId, a.menuPrice
+    FROM tbl_menu a
+    INNER JOIN tbl_category b
+    ON a.categoryId = b.categoryId
+    WHERE a.menuId = ?
+  </entry>
+  <entry key="selectOrder">
+    SELECT
+    orderId, customId, status
+    FROM tbl_order_history
+    ORDER BY status
+  </entry>
+</properties>

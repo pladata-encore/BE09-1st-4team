@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment/>
+    <entry key="findByCustomId">
+        SELECT * FROM tbl_membership
+        WHERE customId = ?
+
+    </entry>
+
+    <entry key="insertMembership">
+        INSERT INTO tbl_membership (membershipName, defaultPrice, customId)
+        VALUES (?, ?, ?)
+    </entry>
+
+
+    <entry key="updateMembership">
+        UPDATE tbl_membership
+        SET
+        membershipName = ?,
+         defaultPrice = ?
+
+        WHERE
+          membershipId = ?
+
+    </entry>
+
+    <entry key="updateCustomId">
+        UPDATE tbl_membership
+        SET customId = ?
+        WHERE customId = ?
+    </entry>
+
+
+    <entry key="deleteMembership">
+        DELETE FROM tbl_membership
+        WHERE customId = ?
+    </entry>
+
+
+
+</properties>
