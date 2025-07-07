@@ -1,4 +1,4 @@
-# 독자적인 카페 키오스크 시스템 개발 프로젝트 기획
+# 독자적인 카페 키오스크 시스템 개발 프로젝트 기획서
 
 ## 1. 프로젝트 개요
 
@@ -100,7 +100,7 @@ Starfox 키오스크 시스템은 MSA(Microservices Architecture) 구조로 구�
 
 ---
 
-## 8. StoryBoard
+## 8. 스토리보드
 
 [User]  
 메인 화면  
@@ -119,6 +119,9 @@ Starfox 키오스크 시스템은 MSA(Microservices Architecture) 구조로 구�
 → 옵션 목록 조회 / 추가 / 수정 / 삭제  
 → 주문 목록 조회 및 제조 완료 처리
 
+![image](https://github.com/user-attachments/assets/de9182d4-35d4-424d-bb06-845c3bf1c213)
+
+
 ---
 
 ## 9. 주요 기능 (MVP)
@@ -135,9 +138,9 @@ Starfox 키오스크 시스템은 MSA(Microservices Architecture) 구조로 구�
 
 ---
 
-## 10. 요구사항 명세
+## 10. 요구사항 정의서
 
-👉 [요구사항 명세 보기](https://www.notion.so/1dca02b1ffb181c1bb6efa1b2f8b4242?pvs=21)
+👉 [요구사항 정의서 보기](https://www.notion.so/1dca02b1ffb181c1bb6efa1b2f8b4242?pvs=21)
 
 ---
 
