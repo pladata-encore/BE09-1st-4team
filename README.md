@@ -225,3 +225,6 @@ Starfox 키오스크 시스템은 MSA(Microservices Architecture) 구조로 구�
 
 ### Admin section  
 ![image](https://github.com/user-attachments/assets/f4097e68-3a59-4941-acbd-8b696c544218)
+
+### User section
+![image](https://github.com/gyongcode/images/blob/main/%EC%9C%A0%EC%A0%80%ED%99%94%EB%A9%B4.png?raw=true)
